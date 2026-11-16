@@ -1,8 +1,10 @@
 # Sarasa Fixed K webfonts
 
-This repository redistributes Sarasa Fixed K v1.0.43 from [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic/releases/tag/v1.0.43). The ten complete fonts cover weights 200, 300, 400, 600, and 700 in normal and italic styles. The original TrueType fonts were compressed to WOFF2 with their glyphs and metadata preserved.
+These WOFF2 fonts are web subsets of [Sarasa Fixed K v1.0.43](https://github.com/be5invis/Sarasa-Gothic/releases/tag/v1.0.43). The ten faces cover weights 200, 300, 400, 600, and 700 in normal and italic styles.
 
-The fonts are licensed under the [SIL Open Font License 1.1](LICENSE). The license file contains the upstream copyright notices.
+The subset retains all 11,172 modern Hangul syllables, Hangul jamo, Latin letters, numbers and common symbols, Japanese hiragana and katakana. It includes Hanja and Kanji from KS X 1001, JIS X 0208 and JIS X 0213 plane 1, plus the GB 2312 character set. Regular contains 27,185 Unicode code points at 3.85 MB. Characters outside the subset use the browser’s fallback font.
+
+The subset uses the internal name Sarasa Fixed K Web and is distributed under the [SIL Open Font License 1.1](LICENSE), with the original copyright notices.
 
 ## Use in a web page
 
@@ -13,4 +15,4 @@ The fonts are licensed under the [SIL Open Font License 1.1](LICENSE). The licen
 </style>
 ```
 
-The [preview](https://noa219.github.io/sarasa-fixed-k-webfont/) shows Korean and Latin text in the regular face.
+The [preview](https://noa219.github.io/sarasa-fixed-k-webfont/) shows Korean, Latin and Japanese text in the Regular face.
